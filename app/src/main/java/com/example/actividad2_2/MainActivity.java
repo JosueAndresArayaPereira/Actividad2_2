@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intento);
     }
 
-    // Método para descargar la imagen en segundo plano usando un Thread
     private void downloadImage(final String urlString) {
         new Thread(new Runnable() {
             @Override
